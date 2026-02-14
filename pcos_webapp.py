@@ -91,6 +91,9 @@ importance = pd.DataFrame({
 
 st.bar_chart(importance.set_index("Feature"))
 st.bar_chart(importance.set_index("Feature"))
+# ---------------- Disclaimer ----------------
+st.markdown("⚠️ This tool is for educational purposes only and not a medical diagnosis.")
+
 
 # ---------------- Footer ----------------
 st.markdown("---")
