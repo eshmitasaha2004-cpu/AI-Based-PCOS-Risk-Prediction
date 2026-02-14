@@ -10,6 +10,12 @@ from sklearn.model_selection import train_test_split
 st.set_page_config(page_title="AI PCOS Detection System", layout="centered")
 
 st.title("🩺 AI-Based PCOS Prediction System")
+# Sidebar GitHub Link
+st.sidebar.title("🔗 Project Links")
+st.sidebar.markdown(
+    "[GitHub Repository](https://github.com/eshmitasaha2004-cpu/AI-Based-PCOS-Risk-Prediction)"
+)
+
 st.markdown("Enter patient details below to predict PCOS risk.")
 
 # ----------------------------
