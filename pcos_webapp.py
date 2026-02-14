@@ -90,3 +90,13 @@ importance = pd.DataFrame({
 }).sort_values(by="Importance", ascending=False)
 
 st.bar_chart(importance.set_index("Feature"))
+st.bar_chart(importance.set_index("Feature"))
+
+# ---------------- Footer ----------------
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center;'>👩‍💻 Developed by <b>Eshmita Saha</b> | "
+    "<a href='https://github.com/eshmitasaha2004-cpu/AI-Based-PCOS-Risk-Prediction' target='_blank'>GitHub</a></div>",
+    unsafe_allow_html=True
+)
+
